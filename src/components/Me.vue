@@ -1,9 +1,15 @@
 <template>
     <div>
-        <h1>Suporka</h1>
-        <h2>Front-End engineer</h2>
-        <h3>Graduated from South China Agricultural University</h3>
-        <h3>Expert in javascript react vue weapp and so on!</h3>
+        <h1>yfang-cli</h1>
+        <h2>A cli for create project</h2>
+        <h3>Easily, expediently, Perfectly</h3>
+        <h3>Create javascript library, react app, vue app and so on!</h3>
+        <h3>
+            <a href="https://github.com/YFang-FE/yfang-cli" target="_blank"
+                >Star</a
+            >
+            me at Github
+        </h3>
         <h3>The following are the details:</h3>
         <p>You have stay here for {{ count }} seconds!</p>
     </div>

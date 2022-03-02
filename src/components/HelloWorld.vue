@@ -1,31 +1,25 @@
 <template>
     <div class="hello">
         <h1>{{ msg }}</h1>
-        <p>
-            You can use this to develop your project.
-        </p>
-        <p>This project will help you create a vue project step by step.</p>
-        <p>You can learn webpack, vue, vue-router, vuex, proxy and so on.</p>
+        <h3>You can use this to develop your project.</h3>
+        <p>This project will help you create a project easily.</p>
+        <p>You use webpack, vue, vue-router, vuex, sass and so on.</p>
         <p>I hope that can be helpful for you!!</p>
         <p>
             You have stay here for {{ count }} second, click time: {{ suporka }}
+            <button @click="suporka += 1">click</button>
         </p>
-
-        <button @click="suporka += 1">click</button>
-
-        <h3>Test first screen load time：</h3>
-        <h4>input the code on console ：whiteScreenTime.showData()</h4>
     </div>
 </template>
 
 <script>
 export default {
     name: 'HelloWorld',
-    components: { },
+    components: {},
     props: {
         msg: {
             type: String,
-            default: 'Welcome to suporka vue',
+            default: 'Welcome to yfang-cli',
         },
     },
     data() {
@@ -50,8 +44,7 @@ export default {
             this
         )
     },
-    mounted() {
-    },
+    mounted() {},
     methods: {
         haha() {
             this.ifShowMask = true

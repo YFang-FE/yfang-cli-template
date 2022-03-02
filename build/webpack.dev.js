@@ -41,7 +41,7 @@ module.exports = merge(common, {
                 use: [
                     'style-loader',
                     'css-loader',
-                    // 'postcss-loader',
+                    // 'postcss-loader', // 默认开发时不实用，移动端适配时需取消注释
                     'sass-loader',
                 ],
             },
@@ -50,7 +50,7 @@ module.exports = merge(common, {
                 use: [
                     'style-loader',
                     'css-loader',
-                    // 'postcss-loader',
+                    // 'postcss-loader', // 默认开发时不实用，移动端适配时需取消注释
                     'less-loader',
                 ],
             },

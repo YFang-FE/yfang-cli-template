@@ -5,6 +5,7 @@ import router from './router'
 import store from './store'
 import api from '@/apis/index.js'
 import EventBus from '@/base/eventBus/index.js'
+// import "./utils/flexible" // 移动端适配专用
 import './index.scss'
 
 // 注册路由

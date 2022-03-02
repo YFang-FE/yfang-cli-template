@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --progress --hot --inline --config build/webpack.dev.js --api_env botme",
     "commit": "node commit/git-commit.js",
     "build": "webpack --config build/webpack.prod.js"
@@ -43,6 +42,7 @@
     "mini-css-extract-plugin": "^0.4.1",
     "optimize-css-assets-webpack-plugin": "^5.0.0",
     "postcss-loader": "^2.1.6",
+    "postcss-px2rem": "^0.3.0",
     "prettier": "^2.0.5",
     "sass": "~1.24.1",
     "sass-loader": "~7.3.1",
